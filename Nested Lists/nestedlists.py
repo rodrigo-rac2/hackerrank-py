@@ -20,7 +20,7 @@ def get_second_lowest_score_student_name(records):
 
 
 if __name__ == '__main__':
-    records = dict();
+    records = dict()
     for _ in range(int(input())):
         name = input()
         score = float(input())
