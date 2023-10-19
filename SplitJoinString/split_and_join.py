@@ -1,5 +1,5 @@
 def split_and_join(line_str):
-    return "-".join(tuple(line_str.split()))
+    return "-".join(line_str.split())
 
 
 if __name__ == '__main__':
