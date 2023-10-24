@@ -1,5 +1,6 @@
 import textwrap
 
+
 def wrap(string, max_width):
     result_string = ""
     for i in range(len(string)):
@@ -8,6 +9,9 @@ def wrap(string, max_width):
         else:
             result_string = result_string + string[i]
     return result_string
+
+# def wrap(string, max_width):
+#     return textwrap.fill(string, max_width)
 
 if __name__ == '__main__':
     string, max_width = input(), int(input())
